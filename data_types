@@ -1,7 +1,7 @@
 //data type//
 
-int       ||    Example 20 or any number
-char      ||    Example (a.b...) or any char
-double    ||    Example 20.5 or any float number
-float     ||    Example 20.5 or number like this
+int       ||    Example 20 or any number          || 4 Byte in your system
+char      ||    Example (a.b...) or any char      || 1 Byte in your system
+double    ||    Example 20.5 or any float number  || 8 Byte in your system
+float     ||    Example 20.5 or number like this  || 4 Byte in your system
 bool      ||    for future
