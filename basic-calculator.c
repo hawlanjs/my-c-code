@@ -1,18 +1,36 @@
 #include <stdio.h>
 
-int main(void){
+int main(){
+   
+  double num1;
+  double num2;
+  char op;
 
-	
-	int num1;
-	int num2;
-	printf("Enter first number: ");
-	scanf("%d", &num1);
-	printf("Enter second number: ");
-	scanf("%d", &num2);
+  printf("pls enter a number: ");
+  scanf("%lf", &num1);
+  printf("pls enter a operator:");
+  scanf(" %c", &op);
+  printf("pls enter a number: ");
+  scanf("%lf", &num2);
 
-	printf("Answer: %d", num1 + num2);
+  if(op == '+'){
+     printf("%f, num1 + num2");
+
+  } else if (op == '-'){
+      printf("%f, num1 - num2");
+  }else if (op == '/'){
+      printf("%f, num1 / num2");
+  }else if (op == '*'){
+      printf("%f, num1 * num2");
+  } else{
+     printf("invalid operator");
+  }
 
 
 
-	return 0;
+
+
+
+  return 0;
 }
+
