@@ -1,7 +1,7 @@
 //data type//
 
-int
-char
-double
-float
-bool
+int       ||    Example 20 or any number
+char      ||    Example (a.b...) or any char
+double    ||    Example 20.5 or any float number
+float     ||    Example 20.5 or number like this
+bool      ||    for future
