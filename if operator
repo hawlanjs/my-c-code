@@ -1,0 +1,7 @@
+In computer science, conditionals (that is, conditional statements, conditional expressions and conditional constructs,) are programming language commands for handling decisions. Specifically, conditionals perform different computations or actions depending on whether a programmer-defined boolean condition evaluates to true or false. In terms of control flow, the decision is always achieved by selectively altering the control flow based on some condition (apart from the case of branch predication).
+
+Although dynamic dispatch is not usually classified as a conditional construct, it is another way to select between alternatives at runtime. 
+
+https://en.wikipedia.org/wiki/Conditional_(computer_programming)
+
+(wiki)
