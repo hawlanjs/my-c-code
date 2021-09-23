@@ -3,11 +3,11 @@
 int main()
 {
    int a = 10; 
-   printf("%i\n", sizeof(a));
+   printf("%i Byte \n", sizeof(a));
    char b = 'a';
-   printf("%i\n", sizeof(b));
+   printf("%i Byte \n", sizeof(b));
    double c = 10.5;
-   printf("%i\n", sizeof(c));
+   printf("%i Byte\n", sizeof(c));
    float d = 10.5;
-   printf("%i\n", sizeof(d));
+   printf("%i Byte\n", sizeof(d));
 }
