@@ -1,36 +1,31 @@
 #include <stdio.h>
 
-int main(){
-   
-  double num1;
-  double num2;
-  char op;
+int main()
+{
+        char user_input;
+        int sum = 0, a, b;
+        scanf("%d", &a);
+        scanf("%c", &user_input);
+        scanf("%d", &b);
 
-  printf("pls enter a number: ");
-  scanf("%lf", &num1);
-  printf("pls enter a operator:");
-  scanf(" %c", &op);
-  printf("pls enter a number: ");
-  scanf("%lf", &num2);
+        switch(user_input)
+        {
+                case '+':
+                sum = a + b;
+                        break;
+                case '-':
+                sum = a - b;
+                        break;
+                case '*':
+                sum = a * b;
+                        break;
+                case '/':
+                sum = a / b;
+                        break;
+                default:
+                printf("Not Found\n");
+                        break;
+        }
 
-  if(op == '+'){
-     printf("%f, num1 + num2");
-
-  } else if (op == '-'){
-      printf("%f, num1 - num2");
-  }else if (op == '/'){
-      printf("%f, num1 / num2");
-  }else if (op == '*'){
-      printf("%f, num1 * num2");
-  } else{
-     printf("invalid operator");
-  }
-
-
-
-
-
-
-  return 0;
+        printf("%d\n", sum);
 }
-
