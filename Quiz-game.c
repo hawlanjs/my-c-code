@@ -55,7 +55,7 @@ int main()
 
     printf("\n\n\n\n\n\n\n\n\n\n\t\t\tResister your name:");
      gets(playername);
-
+//hawlan
     system("cls");
     printf("\n ------------------  Welcome %s to C Program Quiz Game --------------------------",playername);
     printf("\n\n Here are some tips you might wanna know before playing:");
@@ -83,7 +83,7 @@ int main()
         goto mainhome;
        system("cls");
        }
-
+//hawlan
      home:
      system("cls");
      count=0;
@@ -205,7 +205,7 @@ game:
                {printf("\n\nWrong!!! The correct answer is C.Cricket");getch();
                goto score;
                break;}
-
+//hawlan
         case 2:
         printf("\n\n\nStudy of Earthquake is called............,");
         printf("\n\nA.Seismology\t\tB.Cosmology\n\nC.Orology\t\tD.Etimology");
@@ -369,7 +369,7 @@ game:
                goto score;
                break;}
 
-
+//hawlan
         case 17:
         printf("\n\n\nThe country famous for Samba Dance is........");
         printf("\n\nA.Brazil\t\tB.Venezuela\n\nC.Nigeria\t\tD.Bolivia");
@@ -513,7 +513,7 @@ void help()
 
     printf("\n\n\t*********************BEST OF LUCK*********************************");
     printf("\n\n\t*****C PROGRAM QUIZ GAME is developed by hawlan********");}
-
+//hawlan
 void edit_score(float score, char plnm[20])
     {system("cls");
     float sc;
@@ -527,3 +527,4 @@ void edit_score(float score, char plnm[20])
         f=fopen("score.txt","w");
         fprintf(f,"%s\n%.2f",plnm,sc);
         fclose(f);}}
+//hawlan
