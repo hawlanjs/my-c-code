@@ -11,7 +11,7 @@ void update(int *a,int *b)
     *b =abs(y); 
     // Pointers in C - Hacker Rank Solution END
 }
-
+//by hawlan
 int main() 
 {
     int a, b;
@@ -23,3 +23,4 @@ int main()
 
     return 0;
 }
+//by hawlan
