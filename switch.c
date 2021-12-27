@@ -1,12 +1,12 @@
 #include <stdio.h>
-
+//by hawlan
 int main()
 {
    printf("how many pizza slices you eat (tell the truth):");
    int slices;
    scanf("%d", &slices);
    int caloriespreSlice = 250;
-
+//by hawlan
 
   switch(slices)
   {
@@ -32,6 +32,7 @@ int main()
   printf("you had %d calories.\n", caloriespreSlice * slices);
 
   return 0;
+   //by hawlan
 
   
 }
