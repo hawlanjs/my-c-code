@@ -4,6 +4,7 @@ int main(void){
 
  int m;
  int n;
+ //by hawlan
 
 scanf("%d", &m);
 
@@ -23,3 +24,4 @@ int s = m/n;
   
   return 0;
 }
+//by hawlan
