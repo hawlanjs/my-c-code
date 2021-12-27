@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//by hawlan
 int main()
 {
    int a = 10; 
@@ -11,3 +11,4 @@ int main()
    float d = 10.5;
    printf("%i Byte\n", sizeof(d));
 }
+//by hawlan
