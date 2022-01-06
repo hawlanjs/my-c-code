@@ -5,6 +5,7 @@
 #include<string.h>
 void show_record();
 void reset_score();
+//by hawlan
 void help();
 void edit_score(float , char []);
 int main()
